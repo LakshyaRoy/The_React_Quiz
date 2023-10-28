@@ -7,7 +7,7 @@ const Progress = ({
   numQuestions,
   answer,
 }) => {
-  console.log("Progress:", index);
+  // console.log("Progress:", index);
   return (
     <header className="progress">
       <progress value={index + Number(answer !== null)} max={numQuestions} />

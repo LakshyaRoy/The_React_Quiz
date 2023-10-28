@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+## React Quiz Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React quiz web app is a fun way to test your knowledge on various topics. It's built using React, CSS for styling, JavaScript, and a fake server to load questions. Data transportation is managed using the useReducer hook. The app consists of 15 questions, and it calculates your score at the end, showing both your score and the highest score achieved.
 
-## Available Scripts
+## Tech Stack
 
-In the project directory, you can run:
+The project is built using the following technologies:
 
-### `npm start`
+- React: The core framework for building the app's user interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- CSS: Used for styling and ensuring an attractive design.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- JavaScript: The primary language for building app functionality.
 
-### `npm test`
+- useReducer: Employed for managing data transportation within the app.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Server.js: A fake server is utilized to load the quiz questions.
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 5 Questions: The quiz contains 15 engaging and diverse questions to challenge your knowledge.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Score Calculation: Your score is calculated based on the number of correct answers you provide.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- High Score: The app also keeps track of the highest score achieved, allowing you to compete with yourself or others.
 
-### `npm run eject`
+- Clear UI/UX: The app offers a user-friendly and visually appealing interface for a smooth experience.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Documentation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+git clone <repository-url>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm install
+# or
+yarn install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm start
+# or
+yarn start
 
-## Learn More
+<!-- For Starting Server -->
+npm run server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+Contributions are welcome. Feel free to submit a pull request or open an issue.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contact
 
-### Analyzing the Bundle Size
+If you have any questions or suggestions, feel free to contact me at my email lakshyaroy848@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Credits
 
-### Making a Progressive Web App
+This project was created by me. [Lakshya Roy](https://www.linkedin.com/in/lakshya-roy729/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Images
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Screenshot 2023-10-28 180301](https://github.com/LakshyaRoy/The_React_Quiz/assets/110491845/21098269-0dbf-4c7e-9d2f-0c0f6bc07cbb)
